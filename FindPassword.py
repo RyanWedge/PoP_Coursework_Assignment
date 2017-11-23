@@ -11,6 +11,4 @@ def find_password():
                 print read_file
 find_password()
         
- def histogram():
-     
-
+def histogram():
