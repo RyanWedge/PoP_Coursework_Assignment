@@ -1,4 +1,5 @@
 import os
+import numpy
 
 def find_password():
     for(root, dirs, files) in os.walk("received_files/documents/"):
@@ -12,3 +13,4 @@ def find_password():
 find_password()
         
 def histogram():
+# lkhljk
