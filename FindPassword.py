@@ -1,5 +1,6 @@
 import os
 import numpy
+import matplotlib.py.lib as plt
 
 def find_password():
     for(root, dirs, files) in os.walk("received_files/documents/"):
@@ -13,4 +14,5 @@ def find_password():
 find_password()
         
 def histogram():
-# lkhljk
+    y = np.genfromtxt('data.txt')
+    plt.hist(y, 50, normed=1, facecolor='g', alpha=0.75)
